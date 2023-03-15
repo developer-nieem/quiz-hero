@@ -189,5 +189,5 @@ document.getElementById("submit").addEventListener("click", function() {
 // blog connection
 
 const showBlog = () => {
-  window.document.location.href = 'blog.html'
+  window.location.href = 'blog.html'
 }

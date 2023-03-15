@@ -185,3 +185,9 @@ document.getElementById("submit").addEventListener("click", function() {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+// blog connection
+
+const showBlog = () => {
+  window.document.location.href = 'blog.html'
+}

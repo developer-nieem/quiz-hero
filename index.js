@@ -76,7 +76,8 @@ console.log(data);
 };
 
 // EventListener for quiz submit button
-document.querySelector("#submit").addEventlistener("click", () => {
+
+document.getElementById("submit").addEventListener("click", function() {
   console.log('click');
   if (answers.length < 6) {
     return;
